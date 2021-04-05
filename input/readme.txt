@@ -1,1 +1,1 @@
-Put LR images here!
+Put LR and reference images in the subfolders!
