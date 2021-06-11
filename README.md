@@ -36,7 +36,7 @@ Please check our [paper](https://arxiv.org/pdf/2106.04090.pdf)
 # Complete Architecture
 The complete architecture is shown as follows,
 
-![network](/figure/figure1.png)
+![network](/figure/figure1.PNG)
 
 # Implementation
 ## 1. Quick testing
@@ -57,29 +57,19 @@ $ python test_enhance.py
 ```
 
 
-## 2. Testing for NTIRE 20202
----------------------------------------
-
-### s1. Testing images on NTIRE2020 Real World Super-Resolution Challenge - Track 1: Image Processing artifacts can be downloaded from the following link:
-
-https://drive.google.com/open?id=10ZutE-0idGFW0KUyfZ5-2aVSiA-1qUCV
-
-### s2. Testing images on NTIRE2020 Real World Super-Resolution Challenge - Track 2: Smartphone Images can be downloaded from the following link:
-
-https://drive.google.com/open?id=1_R4kRO_029g-HNAzPobo4-xwp86bMZLW
-
-### s3. Validation images on NTIRE2020 Real World Super-Resolution Challenge - Track 1 and Track 2 can be downloaded from the following link:
-
-https://drive.google.com/open?id=1nKEJ4N2V-0NFicfJxm8AJqsjXoGMYjMp
-
-## 3. Training
+## 2. Training
 ---------------------------
-### s1. Download the training images from NTIRE2020.
+### s1. Download DIV2K and Flickr2K training images from
     
-https://competitions.codalab.org/competitions/22220#learn_the_details
+https://data.vision.ee.ethz.ch/cvl/DIV2K/
 
-   
-### s2. Start training on Pytorch
+https://github.com/LimBee/NTIRE2017
+
+### s2. Download reference images from
+
+https://www.wikiart.org/
+
+### s3. Start training on Pytorch
 1. Train the Denoising VAE by running
 ```sh
 $ python main_denoiser.py
@@ -90,11 +80,12 @@ $ python main_GAN.py
 ```
 ---------------------------
 
-## Partial image visual comparison
+## Partial SR image comparison
 
 ## 1. Visualization comparison
-Results on 4x image SR on Track 1 dataset
-![figure2](/figure/figure2.png)
-![figure3](/figure/figure3.png)
-![figure4](/figure/figure4.png)
+Results on 8x image SR on DIV2K validation dataset
+![figure2](/figure/figure2.PNG)
+
+## 2. Quantitative comparison
+![figure3](/figure/figure3.PNG)
 
