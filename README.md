@@ -46,14 +46,9 @@ https://drive.google.com/file/d/1R3vR7PiFNT26sIBorVoq6Mf-F4pMHfmh/view?usp=shari
 
 then put the pre-trained models under the "models" folder.
 
-2. Copy your image to folder "Test" and run 
+2. Modify "test.py" and run 
 ```sh
 $ python test.py
-```
-The SR images will be in folder "Result"
-3. For self-ensemble, run
-```sh
-$ python test_enhance.py
 ```
 
 
@@ -70,13 +65,8 @@ https://github.com/LimBee/NTIRE2017
 https://www.wikiart.org/
 
 ### s3. Start training on Pytorch
-1. Train the Denoising VAE by running
 ```sh
-$ python main_denoiser.py
-```
-2. Train the super-resolution SRSN overhead by running
-```sh
-$ python main_GAN.py
+$ python main.py
 ```
 ---------------------------
 
