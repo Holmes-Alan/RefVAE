@@ -64,9 +64,9 @@ https://github.com/LimBee/NTIRE2017
 
 https://www.wikiart.org/
 
-### s3. Start training on Pytorch
+### s3. Modify "test.py" and run
 ```sh
-$ python main.py
+$ python main_GAN.py
 ```
 ---------------------------
 
