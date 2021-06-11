@@ -30,7 +30,7 @@ parser.add_argument('--stride', type=int, default=4, help='0 to use original pat
 parser.add_argument('--threads', type=int, default=6, help='number of threads for data loader to use')
 parser.add_argument('--seed', type=int, default=123, help='random seed to use. Default=123')
 parser.add_argument('--gpus', default=1, type=int, help='number of gpu')
-parser.add_argument('--image_dataset', type=str, default='/home/server2/ZSLiu/NTIRE2021/data/SR/Set5/')
+parser.add_argument('--image_dataset', type=str, default='data/SR/Set5/')
 parser.add_argument('--model_type', type=str, default='VAE')
 parser.add_argument('--distortion', type=int, default=1)
 parser.add_argument('--model', default='GAN_generator_50.pth', help='sr pretrained base model')
