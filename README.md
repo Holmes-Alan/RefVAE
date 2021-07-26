@@ -79,3 +79,10 @@ Results on 8x image SR on DIV2K validation dataset
 ## 2. Quantitative comparison
 ![figure3](/figure/figure3.PNG)
 
+
+# Reference
+You may check our newly work on [Real image super-resolution using VAE](https://github.com/Holmes-Alan/dSRVAE)
+
+You may also check our work on [Reference based face SR using VAE](https://github.com/Holmes-Alan/RefSR)
+
+You may also check our work on [General image SR using VAE](https://github.com/Holmes-Alan/SR-VAE)
